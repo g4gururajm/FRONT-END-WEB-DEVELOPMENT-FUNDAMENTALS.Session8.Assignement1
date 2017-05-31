@@ -1,0 +1,222 @@
+<!-- declaration refers to a DTD-->
+<!DOCTYPE html>
+
+<!-- Specifiying HTML language has English-->
+<html lang="en">
+
+<!--Head element-->
+<head>
+	<!-- The <meta> tag provides metadata about the HTML and Specify the character encoding for the HTML -->
+	<meta charset="UTF-8">
+	<!-- This meta tag provides metadata about the compatible with Internet explosers-->
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Define a description of your web page -->
+	<meta name="description" content="Free Web tutorials">
+	<!--  Define keywords for search engines -->
+	<meta name="keywords" content="HTML,CSS,XML, XHTML,JavaScript">
+	<!-- Define the author of a page -->
+	<meta name="author" content="Gururaj">
+		<!-- Setting the viewport to make your website look good on all devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- It defines the title of the document-->
+	<title>JavaScript</title>
+	<!-- the script referances any external files called app.js -->
+	<script type="text/javascript"> 
+	<!-- Scripts tag end here --->
+	
+	</script>
+	<style type="text/css">
+	 /* This block put the body styles with style sheet ofimage from the provided url link */
+body {
+	    color: #003B62;										/* set body color */
+		background-color: #DEDEDE; 							/* Body background color */
+		background-repeat: no-repeat;						/* not repeating the  background image*/
+		background-attachment: fixed;    					/* Body background image fixed*/
+		background-position: center;     					/* Body background image align to center of doc */
+		background-size: 660px 690px; 						/* background image hight and width*/
+	}
+#div1{
+	    text: #3A5BA7;										/* div1 text color*/
+	}
+	h4,h3 {
+		color: gray;										/* paragraph set gray color*/
+	}
+	label{
+		color: gray;										/* paragraph set gray color*/
+	}
+	#div2{
+		margin: 20px;					/* setting margin to 20px */
+		width: 500px;					/* setting width to 500px*/
+		float: left;					/* float the object in keft */
+	}
+	#div3{
+		background-color: #0d4a92; 		/* sets backgroung color */
+		margin: 10px;					/* setting margin to 10px */
+		width: 500px;					/* setting width to 500px */
+		float: left;					/* setting object float left*/
+		height: 350px;					/* height of div3*/
+	}
+input {
+	font-size: 15px; 					 /* internal font size*/
+    display: inline-block;				 /* input & input block align */
+    margin: 10px 10px 10px 2px;			 /* input  location on div */
+    line-height: 22px;					 /* input line height on div */
+	padding-top: 10px;					 /* input padding top on div */
+    height: 40px;						 /* input height on div */
+    vertical-align: middle;				 /* input vertical align on div */
+	border-radius: .1em;				 /* input curve style and its radius */
+	padding-left:5px;					 /* input padding left on html doc */
+	padding-bottom: 12px;				 /* input padding bottom html doc */
+	border-color: #F70A67;				 /*  setting border color */
+	width: 450px;						 /* */
+	text-align: left;
+	
+}
+.button {
+    background-color: #DEDEDE;			 /* sets backgroung blue */
+    border-color: #21618C; 				 /* Border style none */
+    color:  #21618C;					 /* border color white*/
+    padding: 10px 40px;					 /* padding of the button left & top*/
+    text-align: center;					 /* button internal text -align center*/
+    text-decoration: none;				 /* button text decoration none*/
+    display: inline-block;				 /* button block align */
+    font-size: 12px;					 /* button internal font size*/
+    margin: 5px 310px;					 /* button location on div */
+    cursor: pointer;					 /* cusore style when on button*/
+	border-radius: 1px;				 	 /* button curve style and its radius */
+	position: relative;					 /* float:center; button position*/ 
+}
+
+.button-login{
+ background-color: #21618C;			     /* sets backgroung blue */
+    border-color: #ff8704; 				 /* Border style none */
+    color:  #fff;						 /* border color white*/
+    padding: 10px 40px;					 /* padding of the button left & top*/
+    text-align: center;					 /* button internal text -align center*/
+    text-decoration: none;				 /* button text decoration none*/
+    display: inline-block;				 /* button block align */
+    font-size: 12px;					 /* button internal font size*/
+    margin-top: -45px;					 /* button margin top set with -45px*/
+	margin-right:	0px;				 /* button location on div */
+	margin-bottom:	0px;				 /* button margin bottom with 0px*/
+	margin-left: 352px;					 /* button margin left set with 325px*/
+    cursor: pointer;					 /* cusore style when on button*/
+	border-radius: 1px;				 	 /* button curve style and its radius */
+	position: relative;				     /* float:center; button position*/
+}
+#lab2{
+	padding-left: 1px;						/* setting padding left to 1px */
+	margin-top: 5px;						/* setting margin top to 5px*/
+	color: #fff;							/* setting lab2 color */
+}
+#lab1{
+	padding-left: 20px;						/* setting padding left to 20px */
+	margin-top: 5px;						/* setting margin top to 20px*/
+	color: #fff;							/* setting lab2 color */
+}
+a:link, a:visited {							/* when ever anchor link mouse set style property */
+	color: white;							/* setting color to white*/
+	text-decoration-color: #fff; 			/* setting text-decoration color white*/
+}
+#lab3{
+	padding-left: 350px;					/* lable padding left on html with 350px  */
+	margin-top: 15px;						/* lable margin top set with 15px */
+	color: white;							/* setting label color white*/
+}
+#input1{
+	font-size: 15px; 					 	/* internal font size*/
+    display: inline-block;				 	/* input & input block align */
+    margin: 25px 10px 20px 20px;			/* input  location on div */
+    line-height: 22px;					 	/* input line height on div */
+	padding-top: 10px;					 	/* input padding top on div */
+    height: 40px;						 	/* input height on div */
+    vertical-align: middle;				 	/* input vertical align on div */
+	border-radius: .1em;				 	/* input curve style and its radius */
+	padding-left:5px;					 	/* input padding left on html doc */
+	padding-bottom: 12px;					/* input pading bottom with 12px */
+	border-color: rgba(247, 10, 103, 0.01);	/* setting background color with rgba*/
+	width: 450px;							/* setting width to 450px */
+	text-align: left;						/* setting text align to left */
+}
+#input2{
+font-size: 15px; 					     	/* internal font size*/
+    display: inline-block;				 	/* input & input block align */
+    margin: 15px 10px 10px 20px;		 	/* input  location on div */
+    line-height: 22px;					 	/* input line height on div */
+	padding-top: 10px;					 	/* input padding top on div */
+    height: 40px;						 	/* input height on div */
+    vertical-align: middle;				 	/* input vertical align on div */
+	border-radius: .1em;				 	/* input curve style and its radius */
+	padding-left:5px;					 	/* input padding left on html doc */
+	padding-bottom: 12px;					/* input pading bottom with 12px */
+	border-color: rgba(247, 10, 103, 0.01);	/* setting background color with rgba*/
+	width: 450px;							/* setting width to 450px */
+	text-align: left;						/* setting text align to left */
+}
+.form{
+    background-color: #C4D8E2;				/* setting background color of form */
+    height: 550px;							/* setting height of form 550px */
+	margin: 10px 0px 0px 100px;				/* setting left bottom top right margin */
+    padding-left: 20px;						/* setting padding left with 20px*/
+    padding-right: 10px;					/* setting padding right with 10px*/
+    position: absolute;						/* setting position absolute*/
+}
+#input3{
+	font-size: 15px; 					 	/* internal font size*/
+    margin: 20px 10px 20px 20px;		 	/* input  location on div */
+    line-height: 22px;					 	/* input line height on div */
+	padding-top: 10px;					 	/* input padding top on div */
+    height: 15px;						 	/* input height on div */
+ 	border-radius: .1em;				 	/* input curve style and its radius */
+	padding-left:1px;					 	/* input padding left on html doc */
+	padding-bottom: 12px;					/* input pading bottom with 12px */
+	border-color: rgba(247, 10, 103, 0.01); /* setting background color with rgba*/
+	width: 15px;							/* setting width to 15px*/
+	color: #000;							/* setting text color to white*/
+}
+/* style tag ends here*/
+</style>
+	
+<!-- Head Ends here -->
+</head>
+<!-- Body of the html document starts here-->
+<body> 
+	<!-- form with method post start here-->
+	<form class="form" method="POST" action="javascript:void(0)" enctype="multipart/form-data">
+	<!-- Paragraph to display on thml doc -->
+	<div id=div1>
+	<h1><b>Enter the system</b> </h1></br><!-- defined header1 with bold fonts -->
+	<h4>It is necessary to login in your account in order to sign up for a course.</h4><!-- header4 is defined  -->
+	<!--set div with style tag of having id = div2 -->
+	<div id=div2>
+		<!-- label declared here-->
+		<label><b>ARE YOU NEW?</b></label> <b>REGISTER</b></label></br></br>
+		<input type="text" name="name"   placeholder="User name" /> <!-- input with placeholder for user name-->
+		<input type="text" name="Email"   placeholder="Email" /> <!-- input with placeholder for user email-->
+		<input type="text" name="Password"   placeholder="Password" /> <!-- input with placeholder for user password-->
+		<input type="text" name="Confirm Password"   placeholder="Confirm Password" /> <!-- input with placeholder for user Confirm password-->
+	
+		<!-- Place button with refering class of button for external custom style on html doc-->
+		<button class="button"><b>REGISTER</b></button>
+	<!-- div ends here -->
+	</div>
+	<!--set div with style tag of having id = div3 -->
+	<div id=div3>
+	<br>
+		<!-- label declared here-->
+		<label id=lab1><b>ALREADY A STUDENT? LOGIN</b></label>
+		<input id=input2 type="text" name="name"   placeholder="User name" /> <!-- input with placeholder for user name-->
+		<input id=input2 type="text" name="Password"   placeholder="Password" /><!-- input with placeholder for user password-->
+		<input id=input3 type="checkbox" name="Remember" ><label id=lab2>Remember me?</label> <!--check box for user to keep signin  -->
+	    <button class="button-login"><b>Login</b></button></br>	<!-- button to login -->
+		<label id=lab3><a href="Forgot Password?">Forgot Password?</a></label>	<!-- anchor link to reset the password -->
+	<!-- div ends here -->
+	</div>
+	<!-- div ends here -->
+	</div>
+<!-- form ends here -->
+</form>
+<!-- Body of the html doc ends here -->
+</body>
+<!-- Html Ends here -->
+</html>
